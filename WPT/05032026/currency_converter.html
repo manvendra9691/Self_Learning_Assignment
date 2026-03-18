@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter </title>
+</head>
+<style>
+    .container {
+        border: 2px solid black;
+        width: 350px;
+        padding: 20px;
+    }
+
+    p {
+        background-color: lightyellow;
+        color: darkblue;
+        border: 2px solid red;
+        padding: 10px;
+        font-size: 18px;
+    }
+</style>
+
+
+
+<body>
+    <div class="container">
+
+        <h2>Currency Converter</h2>
+        Amount:
+        <input type="text" id="amt">
+
+        From:
+        <select id="from">
+
+            <option value="rupee">Rupee</option>
+            <option value="dollar">Dollar</option>
+            <option value="euro">Euro</option>
+        </select>
+
+        To:
+        <select id="to">
+            <option value="rupee">Rupee</option>
+            <option value="dollar">Dollar</option>
+            <option value="euro">Euro</option>
+        </select>
+
+        <br>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <p id="ans"></p>
+
+        <script src="currency_converter.js"></script>
+    </div>
+</body>
+
+</html>
