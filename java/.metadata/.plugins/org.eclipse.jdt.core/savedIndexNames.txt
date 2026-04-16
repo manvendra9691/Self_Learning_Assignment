@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+C:\self-learning\.metadata\.plugins\org.eclipse.jdt.core
+1421452347.index
+19237701.index
+105402204.index
+3013897810.index
+599692461.index
+1865797976.index
+580486486.index
+1981987795.index
+1901035466.index
+3003222332.index
+3896913520.index
+2671845094.index

@@ -1,0 +1,7 @@
+package snippet;
+
+public class Snippet {
+	17.Create an Employee HashSet collection and override equals &hashCode
+	methods to understand how the set maintains uniqueness using these
+	methods.
+
